@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root {
+    --dark-color: #111029;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins";
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: var(--dark-color);
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: -.5px;
+}
+
+h2 {
+    color: var(--dark-color);
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: -.5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #9F9FA9;
+    padding: 0em 1em 0em 1em;
+    transition: color .25s;
+}
+
+a:hover {
+    color: var(--dark-color);
+}
+
+.description {
+    padding-top: 10em;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.pgp {
+    text-align: center;
+}
+
+.code {
+    background-color:rgba(27, 31, 35, 0.05);
+    padding: .2em 0.4em;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}

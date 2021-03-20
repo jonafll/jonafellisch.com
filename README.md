@@ -2,7 +2,6 @@
 This is my personal website hosted on github-pages.
 
 ## TODO:
-- Favicon
 - Reading list
 - Recommended books
 - Blog integration

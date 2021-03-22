@@ -1,7 +1,7 @@
-# Personal website about me
-This is my personal website hosted on github-pages.
+# Personal portfolio
 
 ## TODO:
+- Custom 404 page
 - Reading list
 - Recommended books
 - Blog integration

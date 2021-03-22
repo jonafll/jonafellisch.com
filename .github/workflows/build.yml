@@ -17,4 +17,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           cname: jonafellisch.com
-          exclude_assets: 'README.md'
+          exclude_assets: '/README.md,/css/**.scss'

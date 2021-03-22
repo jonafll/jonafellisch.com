@@ -1,4 +1,4 @@
-name: Deploy to Github Pages
+name: Build
 
 on:
   push:
@@ -17,4 +17,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           cname: jonafellisch.com
-          enable_jekyll: false
